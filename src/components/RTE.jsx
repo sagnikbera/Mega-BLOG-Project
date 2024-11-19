@@ -50,7 +50,7 @@ function RTE({ name, control, label, defaultValue = "" }) {
           />
         )}
       />
-      {console.log("apiKey: ",config.tinymceApikey)}
+      {/* {console.log("apiKey: ",config.tinymceApikey)} */}
     </div>
   );
 }
