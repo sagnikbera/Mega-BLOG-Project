@@ -41,6 +41,29 @@ This project is a blogging platform built using modern web development technolog
 
 ## 📂 Project Structure
 
+``` plaintext
+Appwrite-Blog-Project/
+├── src/                      # Source code
+│   ├── appwrite/             # Appwrite API service wrappers
+│   ├── assets/               # Static resources like images and icons
+│   ├── components/           # Reusable UI components
+│   ├── config/               # App configuration and constants
+│   ├── store/                # Redux slices for global state management
+│   ├── App.css               # Global CSS for the application
+│   ├── App.jsx               # Main application component
+│   ├── index.css             # Styles for the application entry point
+│   ├── main.jsx              # Main entry file for rendering the app
+├── .env.sample               # Sample environment configuration
+├── .gitignore                # Files and directories to ignore in git
+├── README.md                 # Project documentation
+├── eslint.config.js          # ESLint configuration for code linting
+├── index.html                # Main HTML template
+├── package-lock.json         # Lockfile for dependencies
+├── package.json              # Project dependencies and scripts
+├── postcss.config.js         # PostCSS configuration
+├── tailwind.config.js        # Tailwind CSS configuration
+└── vite.config.js            # Vite build configuration
+```
 
 ---
 
